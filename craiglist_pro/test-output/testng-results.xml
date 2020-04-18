@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93544" started-at="2019-11-17T08:46:34 EST" finished-at="2019-11-17T08:48:07 EST">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="45272" started-at="2019-11-17T08:46:34 EST" finished-at="2019-11-17T08:47:19 EST">
+      <class name="craiglist_pro.CraiglistJobs">
+        <test-method status="PASS" signature="setup()[pri:0, instance:craiglist_pro.CraiglistJobs@6fc6f14e]" name="setup" is-config="true" duration-ms="29803" started-at="2019-11-17T08:46:34 EST" finished-at="2019-11-17T08:47:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="jobs()[pri:0, instance:craiglist_pro.CraiglistJobs@6fc6f14e]" name="jobs" duration-ms="10267" started-at="2019-11-17T08:47:04 EST" finished-at="2019-11-17T08:47:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobs -->
+        <test-method status="PASS" signature="done()[pri:0, instance:craiglist_pro.CraiglistJobs@6fc6f14e]" name="done" is-config="true" duration-ms="5134" started-at="2019-11-17T08:47:14 EST" finished-at="2019-11-17T08:47:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+      </class> <!-- craiglist_pro.CraiglistJobs -->
+    </test> <!-- test -->
+    <test name="jobs" duration-ms="46017" started-at="2019-11-17T08:47:21 EST" finished-at="2019-11-17T08:48:07 EST">
+      <class name="craiglist_pro.CraiglistDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:craiglist_pro.CraiglistDemo@61f8bee4]" name="setup" is-config="true" duration-ms="18597" started-at="2019-11-17T08:47:21 EST" finished-at="2019-11-17T08:47:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="apt()[pri:0, instance:craiglist_pro.CraiglistDemo@61f8bee4]" name="apt" duration-ms="26314" started-at="2019-11-17T08:47:40 EST" finished-at="2019-11-17T08:48:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apt -->
+        <test-method status="PASS" signature="number()[pri:0, instance:craiglist_pro.CraiglistDemo@61f8bee4]" name="number" duration-ms="205" started-at="2019-11-17T08:48:06 EST" finished-at="2019-11-17T08:48:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- number -->
+        <test-method status="PASS" signature="doneTest()[pri:0, instance:craiglist_pro.CraiglistDemo@61f8bee4]" name="doneTest" is-config="true" duration-ms="889" started-at="2019-11-17T08:48:07 EST" finished-at="2019-11-17T08:48:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doneTest -->
+      </class> <!-- craiglist_pro.CraiglistDemo -->
+    </test> <!-- jobs -->
+  </suite> <!-- Suite -->
+</testng-results>
